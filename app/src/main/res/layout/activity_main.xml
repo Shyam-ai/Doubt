@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/ask_dbt"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editname"
+        android:layout_width="350dp"
+        android:background="@drawable/bg"
+        android:textColor="#2e153c"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Name"
+        android:padding="10dp"
+        android:textColorHint="#2e153c"/>
+
+    <EditText
+        android:id="@+id/yedit"
+        android:layout_width="350dp"
+        android:background="@drawable/bg"
+        android:textColor="#2e153c"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Your phone number\"
+        android:padding="10dp"
+        android:textColorHint="#2e153c"/>
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="350dp"
+        android:background="@drawable/bg"
+        android:textColor="#2e153c"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Subject Name"
+        android:padding="10dp"
+        android:textColorHint="#2e153c"/>
+
+    <Spinner
+        android:id="@+id/spin"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg"
+        android:entries="@array/unit"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:id="@+id/addknown"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:background="@drawable/but"
+        android:text="Submit"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/addunknown"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:background="@drawable/but"
+        android:text="NEXT"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

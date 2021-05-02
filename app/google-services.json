@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "800488915668",
+    "project_id": "doubt-40934",
+    "storage_bucket": "doubt-40934.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800488915668:android:e953c570f4dc03fcd27141",
+        "android_client_info": {
+          "package_name": "com.example.doubt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800488915668-bh776o0jkc1f4junmm0o2re6g1khnhui.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIAF0RaEJaL00qivL5htmoTzaYhRI-cLA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800488915668-bh776o0jkc1f4junmm0o2re6g1khnhui.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
